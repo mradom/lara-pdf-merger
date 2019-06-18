@@ -1,6 +1,6 @@
 {
-    "name": "lynx39/lara-pdf-merger",
-    "description": "",
+    "name": "codigitar/laravel-pdf-merger",
+    "description": "I modify the original code from Michael Musso",
     "keywords": ["merger","merge","pdf","manage","paginate", "laravel"],
     "license" : [
         "MIT"
@@ -15,7 +15,7 @@
     "require": {
         "php" : ">=5.4"
     },
-    "homepage" : "https://github.com/LynX39/lara-pdf-merger",
+    "homepage" : "https://github.com/mradom/laravel-pdf-merger",
     "autoload": {
         "psr-0": {
             "LynX39\\LaraPdfMerger": "src/"
