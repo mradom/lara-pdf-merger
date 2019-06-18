@@ -12,21 +12,21 @@ Change parsers and use tcpdf, tcpdi and tcpdi_parser
 
 Require this package in your composer.json and update composer.
 
-    "lynx39/lara-pdf-merger": "1.0.*",
+    "codigitar/laravel-pdf-merger": "1.0.*",
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 
-    LynX39\LaraPdfMerger\PdfMergerServiceProvider::class,
+    Codigitar\LaravelPdfMerger\PdfMergerServiceProvider::class,
 
 You can optionally use the facade for shorter code. Add this to your facades:
 
-    'PdfMerger' => LynX39\LaraPdfMerger\Facades\PdfMerger::class,
+    'PdfMerger' => Codigitar\LaravelPdfMerger\Facades\PdfMerger::class,
     
 ## Using
 
 ```php
 
-$pdf = new LynX39\LaraPdfMerger\PdfManage;
+$pdf = new Codigitar\LaravelPdfMerger\PdfManage;
 
 $pdf->addPDF('samplepdfs/one.pdf', '1, 3, 4');
 $pdf->addPDF('samplepdfs/two.pdf', '1-2');
