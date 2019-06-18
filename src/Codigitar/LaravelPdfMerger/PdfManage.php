@@ -1,6 +1,6 @@
 <?php
 
-namespace LynX39\LaraPdfMerger;
+namespace Codigitar\LaraPdfMerger;
 
 use Exception;
 use TCPDI;
