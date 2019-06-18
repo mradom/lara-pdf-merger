@@ -7,9 +7,9 @@
     ],
     "authors": [
         {
-            "name": "Michael Musso",
-            "email": "lynx@deltaaskii.com",
-            "homepage": "https://github.com/LynX39"
+            "name": "Omar",
+            "email": "team@codigitar.com",
+            "homepage": "https://github.com/mradom/"
         }
     ],
     "require": {
@@ -18,7 +18,7 @@
     "homepage" : "https://github.com/mradom/laravel-pdf-merger",
     "autoload": {
         "psr-0": {
-            "LynX39\\LaraPdfMerger": "src/"
+            "Codigitar\\LaravelPdfMerger": "src/"
         }
     }
 }
